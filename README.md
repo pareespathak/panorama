@@ -1,5 +1,5 @@
 # Panorama 
-Panorama image stitching is application of homography transformation over an image.
+Panorama image stitching is application of homography transformation over an image.  
 Conditions for homography:
 1) camera projection center should be rotated about its axis no translation should take place.
 2) There must be a sufficient amount of overlapping area to estimate correspondence. 
@@ -17,5 +17,8 @@ Conditions for homography:
 3) Wrap the second image in the resulting image and add the first image to this construction.
 
 ## Results:
-
-
+<img src="images/img02.jpg" height="300"> | <img src="images/img03.jpg" height="300"> 
+-----------------------------------------|------------------------------------------
+Stitching of two images:  
+<img src="images/results1.jpg" width="500">
+Results
