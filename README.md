@@ -14,8 +14,8 @@ Conditions for homography:
 ## Stiching 
 1) Keep the first image as a reference frame and extract the transformation matrix for the second image.
 2) Create a resulting image which can hold both the images.
-3) Wrap the second image in the resulting image and add the first image to this construction.
-
+3) Wrap the second image in the resulting image and add the first image to this construction.  
+Reference code : [Panorama](https://github.com/pareespathak/panorama/blob/main/basic_panorama.py) 
 ## Results:
 <img src="images/img02.jpg" height="300"> | <img src="images/img03.jpg" height="300"> 
 -----------------------------------------|------------------------------------------
