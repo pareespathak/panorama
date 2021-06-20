@@ -2,8 +2,12 @@
 Panorama image stitching is application of homography transformation over an image.  
 Conditions for homography:
 1) camera projection center should be rotated about its axis no translation should take place.
-2) There must be a sufficient amount of overlapping area to estimate correspondence. 
+2) There must be a sufficient amount of overlapping area to estimate correspondence.  
 
+## How to use 
+`git clone https://github.com/pareespathak/panorama.git`  
+`pip3 install -r requirements.txt`  
+`python basic_panorama.py`
 # Pipeline 
 ## Finding image overlap 
 1) Take image pairs from a calibrated camera keeping the camera location constant and perform lens distortion and rectification.
