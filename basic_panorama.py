@@ -6,9 +6,11 @@ import os
 # taking two images for stiching
 #importing images from folder
 #reference image
-img1 = cv.imread('C:\\aa\\iv_labs\\image_stiching\\images\\img02.jpg')
+#img1 = cv.imread('C:\\aa\\iv_labs\\image_stiching\\images\\img02.jpg')
+img1 = cv.imread('panorama\\images\\img02.jpg')
+img2 = cv.imread('panorama\\images\\img03.jpg')
 #stiching image
-img2 = cv.imread('C:\\aa\\iv_labs\\image_stiching\\images\\img03.jpg')
+#img2 = cv.imread('C:\\aa\\iv_labs\\image_stiching\\images\\img03.jpg')
 
 #detecting key points and finding correspondence
 def keypoints(img1,img2):
